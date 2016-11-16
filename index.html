@@ -1,0 +1,50 @@
+---
+title: "Developing Computational Humanities"
+---
+<html>
+    <head>
+        {% include head.html %}
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            {% include header.html %}
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-8">
+                    <ul class="list-group">
+                        {% for post in site.posts %}
+                        <a href="{{ post.url }}" class="list-group-item">
+                        <div class="h3">
+                            {{ post.title}}
+                        </div>
+                        <div class="text-orange">{{ post.date | date: "%b %-d, %Y" }}</div>
+                        <p class="text-muted">{{ post.short }}</p>
+                        </a>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-sm-4" style="border-left: 1px solid #103D50;">
+                    {% for project in site.data.projects %}
+                    <div class="clearfix">
+                        <div class="h4">
+                            <div style="float:left; width: 50px;">
+                                <img src="{{ project.image }}" class="img" height="40" />
+                            </div>
+                            {{ project.title }}
+                            <a href="{{ project.external }}" class="btn btn-xs"><span class="fa fa-external-link"></span></a>
+                        </div>
+                        <p class="text-muted">
+                            {{ project.description }}
+                        </p>
+                        <div class="pull-right" style="font-size: 8pt;">
+                            {% for tag in project.tags %}
+                            <span class="label label-primary">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>

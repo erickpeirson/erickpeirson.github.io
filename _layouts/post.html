@@ -1,0 +1,25 @@
+<html>
+    <head>
+        {% include head.html %}
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            {% include header.html %}
+            <div>
+                <a href="/">Home</a>
+                <div class="h3">
+                    {{ page.title}}
+                </div>
+                <div class="text">By Erick Peirson</div>
+                <div class="text-orange">{{ page.date | date: "%b %-d, %Y" }}</div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-sm-8">
+                    <div class="container content">{{ content }}</div>
+                </div>
+
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>

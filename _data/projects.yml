@@ -1,0 +1,37 @@
+-  title: Black Goat
+   image: "/assets/images/black_goat_100.png"
+   external: "https://diging.github.io/black-goat/"
+   description: "Black Goat is a configuration-driven platform for non-hierarchical alignments among an unlimited number of name authority systems."
+   tags:
+       - Python
+       - Django
+-  title: The Genecology Project
+   image: "/assets/images/genecology.png"
+   description: "The Genecology Project is an open-note history of the field of ecological genetics, focusing primarily on the Ecology Genetics Group in Britain. Ecological genetics is the study of evolution in action: it shows us how populations of plants and animals are evolving in the pastures, forests, waterways, and neighborhoods where we live. As a scientific field, ecological genetics hasn't been around forever. The story of ecological genetics—where it came from, how it got here, and where it's going now—is also a story about how we as a society make sense of living world."
+   external: "http://www.genecology.org/"
+   tags:
+       - Analysis
+       - Research
+       - RDF
+-  title: Amphora
+   image: "/assets/images/amphora.png"
+   external: "https://github.com/diging/amphora"
+   description: "Amphora is a light-weight repository solution for resource-centered digital projects."
+   tags:
+       - RDF
+       - Python
+       - Django
+-  title: Tethne
+   image: "/assets/images/tethne.png"
+   external: "http://diging.github.io/tethne/"
+   description: "Tethne is a Python package for parsing and analyzing bibliographic metadata. The overarching goal of the project is to make it easier for scholars to build metadata-based network models, such as co-author and co-citation graphs."
+   tags:
+       - Python
+-  title: VogonWeb
+   image: "/assets/images/vogonweb.png"
+   external: "http://www.vogonweb.net/"
+   description: "The bedrock of our collective knowledge is the intepretation of texts. The epistemic web moves knowledge-making out of the cloisters and into the light of day by extending the semantic web to support the subjectivity of the interpretive process. Encode your interpretations of texts—from scholarly works to websites—and help build the epistemic web."
+   tags:
+       - Angular.js
+       - Python
+       - Django
