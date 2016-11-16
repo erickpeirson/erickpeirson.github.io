@@ -14,11 +14,11 @@ title: "Developing Computational Humanities"
                     <ul class="list-group">
                         {% for post in site.posts %}
                         <a href="{{ post.url }}" class="list-group-item">
-                        <div class="h3">
-                            {{ post.title}}
-                        </div>
-                        <div class="text-orange">{{ post.date | date: "%b %-d, %Y" }}</div>
-                        <p class="text-muted">{{ post.short }}</p>
+                            <div class="h3">
+                                {{ post.title}}
+                            </div>
+                            <div class="text-orange">{{ post.date | date: "%b %-d, %Y" }} by Erick Peirson</div>
+                            <p class="text-muted">{{ post.short }}</p>
                         </a>
                         {% endfor %}
                     </ul>
