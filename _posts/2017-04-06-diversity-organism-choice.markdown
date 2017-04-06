@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Publication"
-date: 2015-05-01 11:52:38
+title: "New research in BioEssays about organism choice in biomedical science"
+date: 2017-04-06 10:01:57
 categories:	Publications
 short: 	"How and why biologists choose to work with the organisms that they do has intrigued me since before I started graduate school. I remember being exposed to behavioral neuroscience research in an undergraduate special topics course offered by one of my favorite professors at Puget Sound. This led to a fascination with how scientists make sense of human brains and bodies by studying non-human brains and bodies. So it's exciting to be able to make some contribution—-to inject some data!—-into the philosophical debate about the process of organism choice in the biomedical sciences. Last week, a paper that I co-authored with Heather Kropp, Julia Damerow, and Manfred Laubichler was published in the journal BioEssays."
 ---
