@@ -8,6 +8,7 @@ title: "Developing Computational Humanities"
     <body>
         <div class="container-fluid">
             {% include header.html %}
+
             <div class="row" style="margin-top: 20px;">
                 <div class="col-sm-8">
                     <ul class="list-group">
@@ -21,8 +22,6 @@ title: "Developing Computational Humanities"
                         </a>
                         {% endfor %}
                     </ul>
-                </div>
-                <div class="col-sm-4" style="border-left: 1px solid #ccc;">
                     {% for project in site.data.projects %}
                     <div class="clearfix">
                         <div class="h4">
@@ -42,6 +41,10 @@ title: "Developing Computational Humanities"
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+                <div class="col-sm-4" style="border-left: 1px solid #ccc;">
+                    <a class="twitter-timeline" href="https://twitter.com/undercaffeinatd">Tweets by undercaffeinatd</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
                 </div>
             </div>
             {% include footer.html %}
