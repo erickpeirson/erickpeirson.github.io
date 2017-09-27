@@ -3,11 +3,11 @@ layout: post
 title: "arXiv development update: reference extraction & linking"
 date: 2017-07-27 17:52:51
 categories:	arXiv
-short: 	"In addition to tackling big-picture architectural questions, one of the really
-fun projects that I've worked on over the past several weeks is experimenting
-with extracting cited references from arXiv papers. Today I put up a
-[blog post](https://blogs.cornell.edu/arxiv/2017/09/27/development-update-reference-extraction-linking/)
-that describes what we've done so far, user input, and thoughts for the future."
+short: 	"In addition to tackling big-picture architectural questions, one of
+the really fun projects that I've worked on over the past several weeks is
+experimenting with extracting cited references from arXiv papers. Today I put
+up a blog post that describes what we've done so far, user input, and thoughts
+for the future."
 ---
 
 In addition to tackling big-picture architectural questions, one of the really
